@@ -1,0 +1,14 @@
+modules:
+  scheduledTrigger:
+    - key: sample-scheduled-trigger-example
+      function: trigger
+      interval: hour
+  webtrigger:
+    - key: sample-webtrigger-example
+      function: trigger
+  function:
+    - key: trigger
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/eadd5f9c-d15b-4a8f-88e0-3f0f92a1e788
+  name: sample

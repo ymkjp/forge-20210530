@@ -1,0 +1,10 @@
+{
+  "name": "scheduled-trigger",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "jose-node-esm-runtime": "^3.12.2"
+  }
+}
